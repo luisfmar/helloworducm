@@ -18,7 +18,7 @@ public class HelloController {
 
     @RequestMapping("/temperature")
     public String temperature() {
-        return "Temperatura actual: 15º";
+        return "Temperatura actual: 45º";
     }
 
 }
