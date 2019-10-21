@@ -16,4 +16,9 @@ public class HelloController {
         return "Hola otra vez";
     }
 
+    @RequestMapping("/temperature")
+    public String temperature() {
+        return "Temperatura actual: 15º";
+    }
+
 }
